@@ -36,7 +36,7 @@ body {
   align-items: center;
   top: 0;
   width: 100%;
-  padding: 24px 148px;
+  padding: 1.8% 20%;
 }
 
 .action_btns {
@@ -77,7 +77,7 @@ body {
 select {
   appearance: none;
   overflow: hidden;
-  padding: 6px 30px 4px 30px;
+  padding: 7px 30px 7px 30px;
   background: rgba(0, 0, 0, 0.4);
   font-size: 14px;
   font-weight: 600;
@@ -133,4 +133,130 @@ select {
     rgba(0, 0, 0, 0.6035) 89.75%,
     rgba(0, 0, 0, 0.6) 97%
   );
+}
+
+.content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.heading_content {
+  width: 588px;
+  text-align: center;
+}
+
+.heading_content .heading {
+  font-weight: 900;
+  color: #ffffff;
+  font-size: 56px;
+  margin-bottom: 16px;
+}
+
+.heading_content .subheading {
+  font-weight: 600;
+  color: #ffffff;
+  font-size: 20px;
+  margin-bottom: 32px;
+}
+
+.form .text {
+  font-size: 16px;
+  color: #ffffff;
+  text-align: center;
+}
+
+.form .action {
+  padding-top: 16px;
+}
+
+.action {
+  display: flex;
+  width: 100%;
+  gap: 8px;
+  padding-top: 16px;
+}
+.action input {
+  flex: 1;
+  padding: 16px;
+  background-color: rgba(0, 0, 0, 0.5);
+  border: 1px solid rgba(255, 255, 255, 0.6);
+  border-radius: 4px;
+  outline: none;
+  color: #ffffff;
+  font-size: 16px;
+}
+
+.action input::focus {
+  background-color: rgba(0, 0, 0, 0.3);
+  border: 1px solid rgba(255, 255, 255, 0.6);
+}
+.action input::active {
+  background-color: rgba(0, 0, 0, 0.3);
+  border: 1px solid rgba(255, 255, 255, 0.6);
+}
+
+.action input:-webkit-autofill,
+.action input:-webkit-autofill:hover,
+.action input:-webkit-autofill:focus,
+.action input:-webkit-autofill:active {
+  -webkit-text-fill-color: white;
+
+  /* Required to override Chrome autofill */
+  -webkit-box-shadow: 0 0 0 1000px rgba(0, 0, 0, 0.3) inset;
+  transition: background-color 5000s ease-in-out 0s;
+  border: 1px solid rgba(255, 255, 255, 0.6);
+}
+
+.action .cta {
+  padding: 12px 24px;
+  background: #e50914;
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: 600;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  border-radius: 4px;
+}
+
+.action .cta:hover {
+  background-color: #c11119;
+  transition: 0.3s ease-in;
+  cursor: pointer;
+}
+.trending {
+  padding: 0 18%;
+}
+
+.trending h1 {
+  font-weight: 900;
+  color: #ffffff;
+  font-size: 24px;
+  margin-bottom: 16px;
+}
+
+.trending .cards {
+  margin-top: 16px;
+}
+.trending .cards .card {
+  position: relative;
+}
+.trending .cards .card img {
+  width: 180px;
+  height: 252px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin: 8px 22px;
+}
+
+.trending .cards .card .number {
+  position: absolute;
+  font-size: 100px;
+  font-weight: 800;
+  bottom: 0;
+  color: #000000;
+  -webkit-text-stroke: 3px #ffffff;
+  text-shadow: 0 0 1.5rem rgba(0, 0, 0, 0.5);
 }
