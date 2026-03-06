@@ -239,16 +239,18 @@ select {
 
 .trending .cards {
   margin-top: 16px;
+  display: flex;
+  overflow-x: auto;
 }
 .trending .cards .card {
   position: relative;
+  overflow: hidden;
 }
 .trending .cards .card img {
   width: 180px;
   height: 252px;
   object-fit: cover;
   border-radius: 8px;
-  margin: 8px 22px;
 }
 
 .trending .cards .card .number {
