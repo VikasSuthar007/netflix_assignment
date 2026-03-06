@@ -305,6 +305,8 @@ select {
 .trending .cards .card {
   position: relative;
   overflow: hidden;
+  padding: 8px 24px;
+  width: 100%;
 }
 .trending .cards .card img {
   width: 180px;
