@@ -338,7 +338,7 @@ z-index: 10;
 
 .trending .cards .card .number {
   position: absolute;
-  font-family: NetflixSans, inter, arial;
+  font-family: NetflixSans, arial;
   font-size: 120px;
   font-weight: 900;
   bottom: 24px;
