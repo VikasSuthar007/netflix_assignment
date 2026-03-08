@@ -316,6 +316,7 @@ select {
   flex-shrink:0;
   transition: transform 0.3s ease;
   cursor: pointer;
+  margin: 0 0 0 8px;
 }
 
 .card_content{
@@ -337,10 +338,11 @@ z-index: 10;
 
 .trending .cards .card .number {
   position: absolute;
+  font-family: NetflixSans, inter, arial;
   font-size: 120px;
   font-weight: 900;
-  bottom: 10px;
-  left: -20px;
+  bottom: 24px;
+  left: -26px;
   color: #000000;
   -webkit-text-stroke: 2px #d2d2d2;
   text-shadow: 0 0 1.5rem rgba(0, 0, 0, 0.5);
