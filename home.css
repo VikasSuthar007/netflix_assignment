@@ -2796,7 +2796,7 @@ position: fixed;
   display: flex;
   align-items: flex-end;
   height: auto;
-  transform: translateY(100%);
+  transform: translateY(200px);
   transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1);
   pointer-events: none;
   z-index: 999;
