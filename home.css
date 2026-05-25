@@ -2587,6 +2587,7 @@ z-index:20;
 }
 
 .icon_container{
+position:relative;
 background-color:#1A1A1A;
 height:120px;
 width:24px;
