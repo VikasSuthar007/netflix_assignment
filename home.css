@@ -2524,6 +2524,10 @@ select {
   margin-bottom: 16px;
 }
 
+.carousel_wrapper{
+  position:relative;
+}
+
 .trending .cards {
   position: relative;
   margin-top: 8px;
