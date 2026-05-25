@@ -1,31 +1,3 @@
-/*window.addEventListener("DOMContentLoaded", () => {
-  const overlay = document.querySelector(".overlay");
-
-  console.log(overlay);
-  window.addEventListener("scroll", () => {
-    if (window.scrollY > 300) {
-      overlay.classList.add("show");
-    } else {
-      overlay.classList.remove("show");
-    }
-  });
-}); */
-
-/*const overlay = document.querySelector(".CTA.sticky");
-
-const faqSection = document.querySelector(".faq");
-
-window.addEventListener("scroll", () => {
-  const faqTop = faqSection.getBoundingClientRect().top;
-
-  if (faqTop < window.innerHeight - 300) {
-    overlay.classList.add("show");
-  } else {
-    overlay.classList.remove("show");
-  }
-});
-*/
-
 const cta = document.querySelector(".CTA.sticky");
 const reasonSection = document.querySelector(".reason");
 const bottomForm = document.querySelector(".bottom_form");
